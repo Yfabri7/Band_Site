@@ -1,0 +1,78 @@
+.loginContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f0f4ff; /* Soft blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Title styles */
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Form styles */
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Input group styles */
+  .inputGroup {
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Input field styles */
+  .inputField {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: #3a86ff;
+    outline: none;
+  }
+  
+  /* Submit button styles */
+  .submitButton {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #3a86ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #265ea8;
+  }
+  
+  /* Error text styles */
+  .errorText {
+    color: #ff4d4d;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Subtle button animation for login */
+  .submitButton:active {
+    animation: pulse 0.2s ease-in-out;
+  }

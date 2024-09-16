@@ -1,0 +1,65 @@
+.adminResultsContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the search input field */
+  .inputField {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .inputField:focus {
+    border-color: #3a86ff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .searchButton {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #3a86ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .searchButton:hover {
+    background-color: #265ea8;
+  }
+  
+  /* Search results list */
+  .resultList {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .resultItem {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #e6ecff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resultItem:hover {
+    background-color: #c6d6ff;
+  }
+  

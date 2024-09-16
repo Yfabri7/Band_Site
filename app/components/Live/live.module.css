@@ -1,0 +1,77 @@
+.liveContainer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f0f4ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Styling for the song title */
+  .songTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+
+  .songAuthor {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  /* Styling for lyrics and chords */
+  .lyrics, .chords {
+    font-size: 1.2rem;
+    white-space: pre-wrap; /* Keep line breaks */
+    text-align: left;
+    color: #333;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #e6ecff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for musicians seeing both lyrics and chords */
+  .chords {
+    margin-top: 1.5rem;
+    background-color: #d1e0ff;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .lyrics, .chords {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Floating button to control scrolling */
+  .floatingButton {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #3a86ff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .floatingButton:hover {
+    background-color: #265ea8;
+  }
+  
